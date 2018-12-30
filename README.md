@@ -1,13 +1,13 @@
-﻿#Research question: 
+# Research question: 
 1. How are Russian speaking people located in the world, who are interested to buy Finnish products, who are subscribed to group 1 2 or 3?  
 2. What is the age of this people?
 
-#Pre- hypotheses for testing answering 1 and 2
+# Pre- hypotheses for testing answering 1 and 2
 a) Russian speaking people interested in Finnish products are located on the  border of eastern Finland.
 
 b) Russian speaking people interested in Finnish products belongs to the post- soviet generation.
 
-#The research material is collected from Russian social media VKontakte
+# The research material is collected from Russian social media VKontakte
 
 Research target: 3 biggest groups collecting people together, who wants to buy Finish products:
 
@@ -19,7 +19,7 @@ Group 3 Товары из Финляндии topic-55447193_28632385 17 586 memb
 
 all these groups 1 2 and 3 contains people who are subscribed as followers of the groups. Detailed information about the followers accounts can be accessed by token.
 
-#Actions in Vkontakte
+# Actions in Vkontakte
 
 Create an account in Vkontakte
 Create an individual access token connected to your account in Vkontakte. 
@@ -28,10 +28,10 @@ Find API instructions here: https://vk.com/dev/manuals
 
 Use Anaconda spyder environment to access the data. 
 
-#Ethics and legal requirements regarding data processing
+# Ethics and legal requirements regarding data processing
 During collection and data processing, names and VKontakte ID numbers of the subscribers are removed according to the Russian data privacy law federal law 152- FZ.
 
-#See the file access_data_VK_code.py for collection of data
+## See the file access_data_VK_code.py for collection of data
 
 
 # Prepare the raw data with following steps
@@ -66,33 +66,33 @@ Remove duplicates from column (city.title) column E, create a new file for input
 Processing the answer for hypothese "b" in anaconda.
 Prepare csv GROUP 1 2 and 3, sort the rows column (year.bdate) column C to chronological order sort az, before input
 
-#See the file bday_VK_code.py and city_VK_code.py for code
+# See the file bday_VK_code.py and city_VK_code.py for code
 
-#Answer to questions SUMMARY:
+# Answer to questions SUMMARY:
 
-#What are the humanities research questions?
+# What are the humanities research questions?
 
 Research question: 
 1. How are Russian speaking people located in the world, who are interested to buy Finish products, who are subscribed to #group 1 2 or 3?  
 2. What is the age of this people?
 
-#Pre- hypotheses for testing: 
+# Pre- hypotheses for testing: 
 
 a) Russian speaking people interested in Finnish products are located on the border of eastern Finland
  
 b) Russian speaking people interested in Finnish products or trading belongs to the post- soviet generation
 
-#Which data did I use?
+# Which data did I use?
 Data from Russian social media VKontakte (similar with facebook)
 
-#What did I do to the data (and how can somebody reproduce it)?
+# What did I do to the data (and how can somebody reproduce it)?
 create account in Vkontakte, 
 create individual access token (you can also use directly my files)
 install anaconda spyder,
 follow the instructions above for pipline
 
  
-#What does the analysis show, how does it answer the humanities research question?
+# What does the analysis show, how does it answer the humanities research question?
 
 hypotheses "a" The hypotheses is not clearly true. A big amount of persons interested in Finnish products are located in big cities as St Petersburg and Moscow, but not only on the border area of Finland. 
 It seems to be that people from Ukraine and Belarus are also interested in Finnish products. From the viewpoint of post soviet region, it is interesting to notice, that the Baltic countries are not represented on the list. 
@@ -101,7 +101,7 @@ As conclusion it might be that people from big cities have better access to inte
 
 hypotheses "b" The hypotheses is true. The biggest amount of the followers belong to the post soviet generation born between 1984 and 2000. The difference between group 1 2 and 3 is big, even if they are following similar concept as group. It is important to notice that regarding hypotheses "b", there might be a statistical anomaly, as the users of social media as VKnontakte usually belong to the younger generation. It is interesting to notice that teenagers are not represented as the biggest group of followers, even if they are an active group in VKontakte. 
 
-#Analyses of pipeline for potential bias and problems. What would still need to be done for the analysis to be trustable?
+# Analyses of pipeline for potential bias and problems. What would still need to be done for the analysis to be trustable?
 
 The data is collected from social media. Data from social media is valuable, but it can also be falls or contain a lot of untrue information. For example in case of marketing fake or robot  accounts are used for sharing information. 
 
